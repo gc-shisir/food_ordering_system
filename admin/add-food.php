@@ -99,7 +99,7 @@
                         $id=$row['id'];
                         $title=$row['title'];
                         ?>
-                          <option value="<?php echo $id; ?>"><?php echo $title; ?>></option>
+                          <option value="<?php echo $id; ?>"><?php echo $title; ?> </option>
                         <?php
                       }
                     }else{

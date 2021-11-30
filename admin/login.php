@@ -40,6 +40,7 @@
   if(isset($_POST['submit'])){
     $username=$_POST['username'];
     $password=md5($_POST['password']);
+    echo $password;
 
    $query="SELECT * FROM tbl_admin WHERE username='$username' AND password='$password' ";
 

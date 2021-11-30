@@ -2,7 +2,7 @@
 
   session_start();
 
-  define('SITE_URL','http://localhost/projects/food_ordering_system/');
+  define('SITE_URL','http://localhost:8080/php_projects/food_ordering_system/');
   define('HOST','localhost');
   define('DB_USER','root');
   define('DB_PASSWORD','');
